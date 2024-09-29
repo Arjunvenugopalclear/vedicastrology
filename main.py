@@ -6,7 +6,7 @@ st.title("Vedic Astrology Chat")
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hi there! I can help you answer some life questions. Just type in your date of birth, time of birth and place of birth"}
+        {"role": "assistant", "content": "Hi there! I can help you answer some life questions. Just type in your date of birth, time of birth and place of birth. For example 06/12/1992 at 11:15 AM in Bangalore"}
     ]
 
 # Display chat messages
